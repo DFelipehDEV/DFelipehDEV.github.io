@@ -9,3 +9,5 @@ vendor
 # NPM
 node_modules/
 .npm
+
+.ruby-lsp/
