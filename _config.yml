@@ -1,0 +1,8 @@
+title: Zasus
+email: thediogopcm@gmail.com
+baseurl: ""
+url: "index"
+github_username:  DFelipehDEV
+
+plugins:
+  - jekyll-postcss-v2

@@ -1,0 +1,27 @@
+---
+---
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    h1 {
+      @apply text-light text-2xl;
+    }
+
+    h2 {
+      @apply text-light text-xl;
+    }
+
+    h3 {
+      @apply text-light text-lg;
+    }
+
+    h4, td{
+      @apply text-light text-base;
+    }
+
+    p{
+      @apply text-light mt-2 text-sm
+    }
+}
