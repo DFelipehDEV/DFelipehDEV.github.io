@@ -1,0 +1,9 @@
+- type: Twitter
+  url: "https://x.com/MFilipeDiogo"
+  text: "@MFilipeDiogo"
+- type: Github
+  url: "https://github.com/DFelipehDEV"
+  text: "DFelipehDEV"
+- type: Email
+  url: "mailto:zasus.contact@gmail.com"
+  text: "zasus.contact@gmail.com"
