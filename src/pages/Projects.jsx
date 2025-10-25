@@ -1,6 +1,4 @@
-import Navbar from '../components/Navbar'
-
-function App() {
+function Projects() {
     return (
         <>
             <div className="flex gap-2 items-center justify-center">
@@ -12,4 +10,4 @@ function App() {
     )
 }
 
-export default App
+export default Projects

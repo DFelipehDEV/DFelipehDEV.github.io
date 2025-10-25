@@ -2,7 +2,7 @@ function Navbar() {
     return (
         <nav
             className="sticky top-4 z-10 mb-8 mx-auto w-[75%]
-                 bg-white/5 backdrop-blur-xs border border-white/15 
+                 bg-brand/5 backdrop-blur-xs border border-white/15 
                  rounded-full"
         >
             <div className="flex justify-center sm:justify-between items-center px-8 py-4 text-gray-200 text-lg font-extralight">
