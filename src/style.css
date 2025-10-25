@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
 body {
-    @apply bg-zinc-950 text-white;
+    @apply bg-toasted text-white;
+}
+@theme {
+    --color-toasted: rgb(21, 20, 18);
+    --color-brand: rgb(206, 132, 154)
 }

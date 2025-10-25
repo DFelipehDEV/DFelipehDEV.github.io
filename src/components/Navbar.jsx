@@ -8,16 +8,16 @@ function Navbar() {
             <div className="flex justify-between items-center px-8 py-4 text-gray-200 text-lg font-extralight">
                 <a
                     href="#"
-                    className="font-light text-white tracking-wide hover:text-pink-400"
+                    className="font-light text-white tracking-wide hover:text-brand"
                 >
                     DFelipeh's Corner
                 </a>
 
                 <div className="space-x-4 hidden sm:flex">
-                    <a href="#" className="hover:text-pink-400">
+                    <a href="#" className="hover:text-brand">
                         Home
                     </a>
-                    <a href="#" className="hover:text-pink-400">
+                    <a href="#projects" className="hover:text-brand">
                         Projects
                     </a>
                 </div>
