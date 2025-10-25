@@ -1,3 +1,4 @@
+import lmao from './assets/lmao.gif';
 export const posts = [
     {
         title: "Hi there!",
@@ -27,7 +28,7 @@ export const posts = [
             "Third post!",
         content: `
             <p>Test again! But this time with some <strong>HTML content</strong></p>
-            <img src="src/assets/lmao.gif"/>
+            <img src="${lmao}"/>
         `,
     },
     {
