@@ -19,8 +19,8 @@ function Navbar() {
                     <a href="#" className="hover:text-brand">
                         Home
                     </a>
-                    <a href="#projects" className="hover:text-brand">
-                        Projects
+                    <a href="#posts" className="hover:text-brand">
+                        Posts
                     </a>
                 </div>
             </div>

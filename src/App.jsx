@@ -1,6 +1,7 @@
 import { HashRouter, Routes, Route } from 'react-router'
 import Home from './pages/Home.jsx'
-import Projects from './pages/Projects.jsx'
+import Post from "./pages/Post.jsx";
+import Posts from './pages/PostList.jsx'
 import Navbar from './components/Navbar.jsx'
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
             <HashRouter>
                 <Routes>
                     <Route path="/" element={<Home />} />
-                    <Route path="/projects" element={<Projects />} />
+                    <Route path="/posts" element={<Posts />} />
+                    <Route path="/post/:slug" element={<Post />} />
                 </Routes>
             </HashRouter>
         </>
